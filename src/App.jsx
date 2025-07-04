@@ -12,6 +12,7 @@ function App() {
       <Nav></Nav>
       <Home></Home>
       <Contact></Contact>
+
       <About></About>
     </>
   )

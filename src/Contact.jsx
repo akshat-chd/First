@@ -2,6 +2,7 @@
     const name = document.getElementById("formInput1").value;
     const email = document.getElementById("formInput2").value;
     const message = document.getElementById("formInput3").value;
+    console.log();
 
     localStorage.setItem("name", name);
     localStorage.setItem("email", email);
@@ -15,7 +16,7 @@
 function Contact() {
   return (
     <section id="contact" className="py-5 bg-light text">
-      <div className="container">
+      <div className="container">  
         <h2>Contact Me</h2>
        
             <div class="mb-3">
